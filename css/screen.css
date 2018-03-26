@@ -5,21 +5,20 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	color: #555555;
+	max-width: 1200px;
+	position: relative;
 }
 
-/*TEXT STYLES*/
-
+/*TEXT*/
  
 h1 {
 	margin: 0 0 1em 0;
 	font-size: 2.8em;
 	font-weight: 700;
 }
-/*TEXT STYLES*/
-
  
 h2 {
 	margin: 0 0 0.5em 0;
@@ -27,8 +26,6 @@ h2 {
 	font-weight: 700;
 	line-height: 1.1em;
 }
-/*TEXT STYLES*/
-
  
 h3 {
 	margin: 0 0 0.5em 0;
@@ -36,8 +33,6 @@ h3 {
 	font-weight: 700;
 	line-height: 1.1em;
 }
-/*TEXT STYLES*/
-
  
 h4 {
 	font-size: 1em;
@@ -53,4 +48,15 @@ a {
 }
 a:visited {
 	color: #000000;
+}
+
+/*HEADER*/
+
+header {
+	height: 430px;
+	background-color: #CF0004;
+	background-image: url(../images/banner_1200.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	position: relative;
 }
