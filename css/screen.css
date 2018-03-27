@@ -1,6 +1,10 @@
 /* CSS Document for Screens */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i');
 
+*, *:before,
+*:after {
+    box-sizing: inherit;
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -123,4 +127,20 @@ section.main aside .content {
 	background-position: center top;
 	background-size: 75px 75px;
 	padding-top: 85px;
+}
+section.main aside .content h3 a {
+	color: rgba(0,0,0,1.00);
+	text-decoration: none;
+}
+section.main aside .content h3 a:hover {
+	text-decoration: underline;
+}
+section.main aside .content.trending {
+	background-image: url(../images/icon_star.svg);
+}
+section.main aside .content.find-it {
+	background-image: url(../images/icon_marker.svg);
+}
+section.main aside .content.tools {
+	background-image: url(../images/icon_gear.svg);
 }
