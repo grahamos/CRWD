@@ -49,6 +49,18 @@ a {
 a:visited {
 	color: #000000;
 }
+a.btn {
+	font-size: 1.2em;
+	text-decoration: none;
+	border: 1px solid #FFFFFF;
+	padding: 4px 15px;
+	color: #FFFFFF;
+	transition:background-color .5s;
+	
+}
+a.btn:hover {
+	background-color: rgba(0,0,0,0.30);
+}
 
 /*HEADER*/
 
@@ -86,15 +98,29 @@ header div.hero h1 {
 	margin: 0 0 30px 0;
 	line-height: 1em;
 }
-a.btn {
-	font-size: 1.2em;
-	text-decoration: none;
-	border: 1px solid #FFFFFF;
-	padding: 4px 15px;
-	color: #FFFFFF;
-	transition:background-color .5s;
-	
+
+/*SECTION ALL*/
+
+section {
+	padding: 0 30px;
 }
-a.btn:hover {
-	background-color: rgba(0,0,0,0.30);
+
+/*SECTION MAIN*/
+
+section.main {
+	margin-top: 20px;
+	padding: 0;
+	margin-bottom: 30px;
+}
+section.main aside {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+section.main aside .content {
+	margin: 15px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 75px 75px;
+	padding-top: 85px;
 }
