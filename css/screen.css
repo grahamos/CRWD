@@ -60,3 +60,41 @@ header {
 	background-position: center bottom;
 	position: relative;
 }
+header a.logo  {
+	position: absolute;
+	display: block;
+	width: 160px;
+	height: 66px;
+	background-image: url(../images/logo.svg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 15px;
+	left: 20px;
+}
+header a.logo span {
+	display: none;
+}
+header div.hero {
+	position: absolute;
+	width: 42%;
+	top: 130px;
+	left: 55%;
+}
+header div.hero h1 {
+	color: #FFFFFF;
+	margin: 0 0 30px 0;
+	line-height: 1em;
+}
+a.btn {
+	font-size: 1.2em;
+	text-decoration: none;
+	border: 1px solid #FFFFFF;
+	padding: 4px 15px;
+	color: #FFFFFF;
+	transition:background-color .5s;
+	
+}
+a.btn:hover {
+	background-color: rgba(0,0,0,0.30);
+}
