@@ -246,3 +246,28 @@ section.how-to footer blockquote p.credit::before{
 	left: 0px;
 	top: -1px;
 }
+
+/*FOOTER*/
+
+
+footer {
+	font-size: 0.8em;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	color: #999999;
+}
+footer .content {
+	display: inline;
+}
+footer a {
+	margin-left: 30px;
+	color: #777777;
+}
+footer a:visited  {
+	color: #777777;
+}
+footer a:hover  {
+	color: #000000;
+}
