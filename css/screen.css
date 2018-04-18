@@ -188,3 +188,41 @@ section.how-to aside .content img {
 	margin-bottom: 15px;
 	width: 70%;
 }
+section.how-to aside .content h4 {
+	margin: 0;
+}
+section.how-to aside .content p {
+	margin-bottom: 0.5em;
+}
+section.how-to aside .content a {
+	margin-bottom: 0.5em;
+	display: inline-block;
+	color: #CC6633;
+	font-weight: 700;
+}
+section.how-to footer blockquote {
+	position: absolute;
+	margin: 0;
+	width: 32%;
+	color: #444444;
+	right: 4%;
+	bottom: 0px;
+	background-color: #FFFFFF;
+}
+section.how-to footer blockquote p {
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+section.how-to footer blockquote p.quote {
+	font-size: 1.2em;
+	font-style: italic;
+}
+section.how-to footer blockquote p.credit {
+	color: #777777;
+	font-size: 0.9em;
+	padding-left: 20px;
+	line-height: 1.3em;
+	position: relative;
+}
