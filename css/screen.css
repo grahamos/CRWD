@@ -166,3 +166,25 @@ section.atmosphere article {
 	background-position: 0% 5px;
 	min-height: 220px;
 }
+/*SECTION HOW-TO*/
+
+
+section.how-to {
+	background-color: #EEE9D9;
+	position: relative;
+}
+section.how-to aside {
+	width: 30%;
+	margin-left: 10px;
+	float: left;
+}
+section.how-to aside .content {
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+section.how-to aside .content img {
+	display: block;
+	margin-bottom: 15px;
+	width: 70%;
+}
