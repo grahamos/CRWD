@@ -226,3 +226,23 @@ section.how-to footer blockquote p.credit {
 	line-height: 1.3em;
 	position: relative;
 }
+section.how-to footer blockquote::before {
+	content: '\201c';
+	color: #D2BD65;
+	position: absolute;
+	top: 10px;
+	left: 8px;
+	font-size: 5em;
+	font-family: serif;
+}
+section.how-to footer blockquote p.quote::after{
+	content: '\201d';
+	font-family: serif;
+}
+section.how-to footer blockquote p.credit::before{
+	content: '\2014';
+	font-family: serif;
+	position: absolute;
+	left: 0px;
+	top: -1px;
+}
