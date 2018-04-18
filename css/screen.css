@@ -104,10 +104,15 @@ header div.hero h1 {
 }
 
 /*SECTION ALL*/
-
 section {
 	padding: 0 30px;
 }
+section::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
 
 /*SECTION MAIN*/
 
@@ -143,4 +148,21 @@ section.main aside .content.find-it {
 }
 section.main aside .content.tools {
 	background-image: url(../images/icon_gear.svg);
+}
+
+/*SECTION ATMOSPHERE*/
+
+section.atmosphere {
+	background-color: #CC6633;
+	color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+section.atmosphere article {
+	padding-left: 515px;
+	padding-right: 20px;
+	background-image: url(../images/photo_lounge.jpg);
+	background-repeat: no-repeat;
+	background-position: 0% 5px;
+	min-height: 220px;
 }
