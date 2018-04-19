@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	
 <!--START HEAD-->
 	<head>
-	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Creating a Responsive Web Design</title>
 	<meta name="description" content="This is a mock design site">
-	<link href="css/screen.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="../css/screen.css" rel="stylesheet" type="text/css" media="screen">
 	</head>
 <!--END HEAD-->
 	
@@ -46,7 +46,7 @@
 				</div>
 			</aside>
 			
-			<aside>
+			<aside role="complementary">
 				<div class="content find-it">
 					<h3 role="heading">
 						<a href="#" title="Where to find it" target="_blank">
@@ -60,7 +60,7 @@
 				</div>
 			</aside>
 			
-			<aside>
+			<aside role="complementary">
 				<div class="content tools">
 					<h3 role="heading">
 						<a href="#" title="Tools of the trade" target="_blank">
@@ -97,8 +97,8 @@
 		<section class="how-to">
 			<aside role="complementary">
 				<div class="content">
-					<img src="images/photo_seating.jpg" width="250" height="135" alt="Choosing the proper seating"/>
-					<h4>
+					<img src="../images/photo_seating.jpg" width="250" height="135" alt="Choosing the proper seating"/>
+					<h4 role="heading">
 						How to: Seating
 					</h4>
 					<p>
@@ -112,8 +112,8 @@
 			
 			<aside role="complementary">
 				<div class="content">
-					<img src="images/photo_lighting.jpg" width="250" height="135" alt="Choosing the proper lighting"/>
-					<h4>
+					<img src="../images/photo_lighting.jpg" width="250" height="135" alt="Choosing the proper lighting"/>
+					<h4 role="heading">
 						How to: Lighting
 					</h4>
 					<p>
@@ -148,11 +148,13 @@
 	</section>
 <!--END HOW-TO-->
 		
-<!--START NAV-->		
+<!--START NAV-->
+		<!--aria-haspopup enables our navigation system for the most number of devices possible,-->
 	<nav role="navigation">				
 			<ul>
+				<!--ABOUT-US-->
 				<li>
-					<a href="#" title="About Us">About Us</a>
+					<a href="#" title="About Us" aria-haspopup="true">About Us</a>
 					<ul>
 						<li>
 							<a href="#" title="Sub Link 1">Sub Link 1</a>
@@ -162,8 +164,9 @@
 						</li>
 					</ul>
 				</li>
+				<!--DESIGN-CORNER-->
 				<li>
-					<a href="#" title="Design Corner">Design Corner</a>
+					<a href="#" title="Design Corner" aria-haspopup="true">Design Corner</a>
 					<ul>
 						<li>
 							<a href="#" title="Sub Link 1">Sub Link 1</a>
@@ -172,7 +175,7 @@
 							<a href="#" title="Sub Link 2">Sub Link 2</a>
 						</li>
 						<li>
-							<a href="#" title="Sub Link 2">Sub Link 3</a>
+							<a href="#" title="Sub Link 2" aria-haspopup="true">Sub Link 3</a>
 							<ul>
 						<li>
 							<a href="#" title="Sub Sub Link 1">Sub Sub Link 1</a>
@@ -184,6 +187,7 @@
 						</li>
 					</ul>
 				</li>
+				<!--PRODUCTS-->
 				<li>
 					<a href="#" title="Products">Products</a>
 					<ul>
@@ -195,6 +199,7 @@
 						</li>
 					</ul>
 				</li>
+				<!--CONTACT-US-->
 				<li>
 					<a href="#" title="Contact Us">Contact Us</a>
 				</li>
@@ -204,13 +209,13 @@
 		
 <!--START FOOTER-->
 		<footer role="contentinfo">
-			<small>
-				&copy; Everyday Things
+			&copy; Everyday Things
 				<div class="content">
-					<a href="#" title="Privacy Policy">Privacy Policy</a>
-					<a href="#" title="Terms Of Service">Terms Of Service</a>
+					<small>
+						<a href="#" title="Privacy Policy">Privacy Policy</a>
+						<a href="#" title="Terms Of Service">Terms Of Service</a>
+					</small>
 				</div>
-			</small>
     </footer>
 <!--END FOOTER-->
 		
