@@ -50,6 +50,8 @@ p {
 a {
 	color: #007EFF;
 }
+.logo {
+}
 a:visited {
 	color: #000000;
 }
@@ -244,12 +246,6 @@ section.how-to footer blockquote p.quote::after{
 	content: '\201d';
 	font-family: serif;
 }
-nav ul {
-	text-decoration: none;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
 section.how-to footer blockquote p.credit::before{
 	content: '\2014';
 	font-family: serif;
@@ -277,6 +273,25 @@ nav::after {
 	display: block;
 	clear: both;
 }
+nav ul {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav ul li:hover {
+	display: block;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+nav ul li a:hover {
+	color: rgba(255,255,255,1.00);
+	background-color: #6D0911;
+}
+nav ul li a:visited {
+	color: rgba(255,255,255,1.00);
+}
 
 nav ul li {
 	background-color: #2B0306;
@@ -289,21 +304,30 @@ nav ul li a {
 	width: 125px;
 	position: relative;
 }
-nav ul li a:visited {
-	color: rgba(255,255,255,1.00);
+nav ul ul {
+	position: absolute;
+	top: 100%;
+	background-color: #2B0306;
+	display: none;
 }
-nav ul li a:hover {
-	color: rgba(255,255,255,1.00);
-	background-color: #6D0911;
+nav ul ul li {
+	position: relative;
+}
+nav ul ul ul {
+	left: 100%;
+	top: 0px;
 }
 
 /*TOP-LEVEL*/
-
+/* This will only target an unordered list if it is immediately the child of a navigation element.*/
 nav > ul {
 	padding-left: 200px;	
 }
 nav > ul > li {
 	float: left;
+}
+nav > ul > li > a {
+	padding: 10px 20px 15px 20px;
 }
 
 
