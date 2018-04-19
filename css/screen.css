@@ -87,6 +87,7 @@ header a.logo  {
 	background-size: contain;
 	top: 15px;
 	left: 20px;
+	z-index: 1;
 }
 header a.logo span {
 	display: none;
@@ -156,6 +157,9 @@ section.atmosphere {
 	background-color: #CC6633;
 	color: #FFFFFF;
 	padding-top: 30px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
 	padding-bottom: 30px;
 }
 section.atmosphere article {
@@ -172,6 +176,7 @@ section.atmosphere article {
 section.how-to {
 	background-color: #EEE9D9;
 	position: relative;
+	margin-top: -40px;
 }
 section.how-to aside {
 	width: 30%;
@@ -239,6 +244,12 @@ section.how-to footer blockquote p.quote::after{
 	content: '\201d';
 	font-family: serif;
 }
+nav ul {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
 section.how-to footer blockquote p.credit::before{
 	content: '\2014';
 	font-family: serif;
@@ -247,8 +258,56 @@ section.how-to footer blockquote p.credit::before{
 	top: -1px;
 }
 
-/*FOOTER*/
+/*NAVIGATION*/
 
+nav {
+	background-color: rgba(0,0,0,.65);
+	padding-top: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+nav::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+nav ul li {
+	background-color: #2B0306;
+}
+nav ul li a {
+	display: inline-block;
+	padding: 10px 20px;
+	color: rgba(255,255,255,1.00);
+	text-decoration: none;
+	width: 125px;
+	position: relative;
+}
+nav ul li a:visited {
+	color: rgba(255,255,255,1.00);
+}
+nav ul li a:hover {
+	color: rgba(255,255,255,1.00);
+	background-color: #6D0911;
+}
+
+/*TOP-LEVEL*/
+
+nav > ul {
+	padding-left: 200px;	
+}
+nav > ul > li {
+	float: left;
+}
+
+
+/*FOOTER*/
 
 footer {
 	font-size: 0.8em;
