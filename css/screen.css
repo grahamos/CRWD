@@ -19,16 +19,20 @@ body {
 /*TEXT*/
  
 h1 {
-	margin: 0 0 1em 0;
+	margin-bottom: 1em;
 	font-size: 2.8em;
 	font-weight: 700;
 }
  
 h2 {
-	margin: 0 0 0.5em 0;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0.5em;
 	font-size: 1.6em;
 	font-weight: 700;
 	line-height: 1.1em;
+	width: 60%;
 }
  
 h3 {
@@ -61,8 +65,8 @@ a.btn {
 	border: 1px solid #FFFFFF;
 	padding: 4px 15px;
 	color: #FFFFFF;
-	transition:background-color .5s;
-	
+	transition: background-color .5s;
+	font-weight: 200;
 }
 a.btn:hover {
 	background-color: rgba(0,0,0,0.30);
@@ -355,33 +359,27 @@ footer a:hover  {
 	color: #000000;
 }
 
-
-@media (max-width : 1150px ){
-
+@media (max-width: 1000px){
+/*TEXT*/
+ 
 h1 {
 	font-size: 2.4em;
 }
 	
 /*HEADER*/
 	
-header div.hero  {
+	header div.hero {
 	left: 56%;
 }
-header div.hero h2 {
-	font-size: 1.2em;
-	margin-bottom: 20px;
+header div.hero h1 {
+	margin-bottom: 20px;	
 }
+	
+/*SECTION-ATMOSPHERE*/
+	
 section.atmosphere article {
 	padding-left: 400px;
 	background-size: 375px auto;
 }
-
-/*SECTION-ATMOSPHERE*/
-	
-
-	
-	
-
-	
 	
 }
