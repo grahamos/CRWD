@@ -501,6 +501,9 @@ header div.hero {
 header div.hero h1 {
 	margin-bottom: 10px;
 }
+	
+/*SECTION-MAIN*/
+	
 section.main aside {
 	width: 100%;
 	float: none;
@@ -516,6 +519,9 @@ section.main aside div.content  {
 	background-size: 50px 50px;
 	background-position: 20px 5px;
 }
+	
+/*SECTION-ATMOSPHERE*/
+	
 section.atmosphere article {
 	padding-top: 160px;
 	padding-right: 20px;
@@ -523,6 +529,41 @@ section.atmosphere article {
 	padding-left: 0px;
 	background-size: 300px auto;
 	min-height: initial;
+}
+section.how-to aside {
+	width: 100%;
+	float: none;
+	margin: 0;
+	position: relative;
+}
+section.how-to aside div.content {
+	padding-top: 20px;
+	padding-right: 21px;
+	padding-bottom: 20px;
+	padding-left: 150px;
+}
+section.how-to aside div.content p {
+	font-size: 0.9em;
+}
+section.how-to aside div.content img {
+	display: inline-block;
+	width: 125px;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+section.how-to footer blockquote {
+	margin-right: 20px;
+	margin-left: 40px;
+	width: 90%;
+	padding-top: 1px;
+	margin-bottom: 20px;
+	position: relative;
+}
+section.how-to footer blockquote .credit {
+	margin-bottom: 0px;
 }
 	
 /*NAVIGATION*/
