@@ -501,6 +501,29 @@ header div.hero {
 header div.hero h1 {
 	margin-bottom: 10px;
 }
+section.main aside {
+	width: 100%;
+	float: none;
+	text-align: left;
+}
+section.main aside div.content  {
+	margin-top: 8px;
+	margin-right: 20px;
+	margin-bottom: 8px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 85px;
+	background-size: 50px 50px;
+	background-position: 20px 5px;
+}
+section.atmosphere article {
+	padding-top: 160px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-size: 300px auto;
+	min-height: initial;
+}
 	
 /*NAVIGATION*/
 	
