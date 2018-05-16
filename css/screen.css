@@ -361,6 +361,7 @@ footer a:hover  {
 }
 
 @media (max-width: 1000px){
+	
 /*TEXT*/
  
 h1 {
@@ -415,7 +416,84 @@ section.how-to footer blockquote p.quote {
 section.how-to footer blockquote p.credit {
 	font-size: 0.85em;
 }
+}
 
+@media (max-width: 760px){
+	h1 {
+	font-size: 1.8em;
+}
+h2 {
+	font-size: 1.8em;
+}
+h3 {
+	font-size: 1.1em;
+}
+a.btn {
+	font-size: 1.1em;
+}
+	
+/*HEADER*/
+
+header a.logo {
+	width: 145px;
+	height: 60px;
+	}
+header div.hero {
+	top: 140px;
+	left: 48%;
+}
+	
+/*SECTION MAIN*/
+section.main {
+	margin: 10px 0px;
+}
+section.main aside div.content {
+	background-size: 55px 55px;
+	padding-top: 60px;
+}
+/*SECTION HOW-TO*/
+	
+section.how-to aside div.content img {
+	width: 85%;
+	}
+nav {
+	padding-top: 80px;
+}
+nav > ul {
+	padding-left: 10px;
+}
 	
 	
+	
+}
+
+@media (max-width:625px){
+h1 {
+	font-size: 1em;
+}
+h3 {
+}
+a.btn {
+	font-size: 0.9em;
+}
+	
+/*HEADER*/
+	
+header {
+	height: 160px;
+	background-image: url(../images/banner_625.jpg);
+	background-position: left top;
+}
+	
+/*NAVIGATION*/
+	
+nav {
+	position: static;
+	padding: 20px 15px;
+	width: auto;
+	background-color: #4B0A0C;
+}
+}
+
+@media (max-width:425px){
 }
