@@ -574,6 +574,30 @@ nav {
 	width: auto;
 	background-color: #4B0A0C;
 }
+nav ul , nav ul ul,nav ul ul ul{
+	display: block;
+	position: static;
+}
+nav > ul {
+	padding: opx;
+}
+nav > ul > li {
+	float: none;
+	margin-top: 25px;
+}
+nav ul li:hover {
+	background: none;
+}
+nav ul li a {
+	display: block;
+	padding: 8px 15px;
+	margin: 8px 10px;
+	border: 1px solid rgba(255,255,255,0.25);
+	width: auto;
+}
+nav ul li a:hover {
+	background-color: rgba(255,255,255,0.2);
+}
 }
 
 @media (max-width:425px){
