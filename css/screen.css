@@ -572,21 +572,22 @@ nav {
 	position: static;
 	padding: 20px 15px;
 	width: auto;
-	background-color: #4B0A0C;
+	background-color: #4B090D;	
 }
-nav ul , nav ul ul,nav ul ul ul{
+nav ul,nav ul ul,nav ul ul ul{
 	display: block;
 	position: static;
 }
 nav > ul {
-	padding: opx;
+	padding: 0px;
+	
 }
 nav > ul > li {
 	float: none;
 	margin-top: 25px;
 }
-nav ul li:hover {
-	background: none;
+nav ul li {
+	background-color: rgba(75,9,13,1.00);
 }
 nav ul li a {
 	display: block;
@@ -595,10 +596,35 @@ nav ul li a {
 	border: 1px solid rgba(255,255,255,0.25);
 	width: auto;
 }
-nav ul li a:hover {
-	background-color: rgba(255,255,255,0.2);
+nav ul li a:hover  {
+	background-color: rgba(255,255,255,0.20);
+}
+nav ul ul {
+	background: none;
+}
+nav ul ul li a {
+	margin-left: 30px;
+}
+nav ul ul ul li a {
+	margin-left: 60px;
+}
+footer div.content {
+	display: block;
+	margin-top: 15px;
+}
+footer div.content a {
+	margin-right: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
 }
 }
 
 @media (max-width:425px){
+nav ul ul li a {
+	margin-left: 30px;
+}
+nav ul ul li a {
+	margin-left: 30px;
+}
 }
