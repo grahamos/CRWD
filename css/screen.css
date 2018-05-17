@@ -621,10 +621,59 @@ footer div.content a {
 }
 
 @media (max-width:425px){
-nav ul ul li a {
-	margin-left: 30px;
+header {
+	height: 110px;
+	background-image: url(../images/banner_425.jpg);
 }
-nav ul ul li a {
-	margin-left: 30px;
+header a.logo {
+	height: 36px;
+	background-color: rgba(0,0,0,0.65);
+	background-image: url(../images/logo_small.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 126px 17px;
 }
+header div.hero {
+	width: 100%;
+	left: 0px;
+	top: 46px;
+	text-align: center;
+}
+header div.hero h1 {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+header div.hero a.btn {
+	padding: 2px 30px;
+	font-size: 0.8em;
+}
+header div.hero a.btn span {
+	display: none;
+}
+section.atmosphere {
+	margin-bottom: 40px;
+}
+section.atmosphere article h2 {
+	font-size: 1.2em;
+}
+section.atmosphere article p {
+	font-size: 0.8em;
+}
+section.how-to aside div.content  {
+	padding-top: 140px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+}
+section.how-to aside div.content img {
+	width: auto;
+	height: 100px;
+	top: 30px;
+}
+section.how-to footer blockquote {
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-left: 20px;
+}
+
 }
